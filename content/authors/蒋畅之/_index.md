@@ -35,8 +35,8 @@ social:
     link: https://scholar.google.com/citations?user=B80LmiUAAAAJ&hl=en
   - icon: house-user
     icon_pack: fas
-    link: https://changzhizhi.github.io/
-
+    link: https://czz-naoc.github.io/
+    
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
