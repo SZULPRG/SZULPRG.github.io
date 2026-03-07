@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: ''
+    link: 'zhiyuxiao@szu.edu.cn'
 
 
 # Organizational groups that you belong to (for People widget)
