@@ -32,7 +32,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 本科生
+  - 已毕业
 ---
 
 **王嘉伟**，本科就读于深圳大学高等研究院数学与应用数学专业，本科期间师从丁春雨研究员，研究小行星2016HO3内部结构与物理介电特性仿真。以共同作者的身份参与了论文工作并在IEEE TGRS得到发表（SCI, JCR Q1; IF= 8.2）。本科期间参与全国大学生创新创业大赛获得省/企业级奖项共四项，获奖学金与荣誉十余项
