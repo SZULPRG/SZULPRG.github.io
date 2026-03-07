@@ -11,7 +11,7 @@ last_name: Xu
 superuser: false
 
 # Role/position
-role: 博士生
+role: 2025级博士生
 
 # Organizations/Affiliations
 organizations:
