@@ -7,7 +7,7 @@ first_name: Ding
 last_name: Chunyu
 
 # Is this the primary user of the site?
-# speruser: true
+speruser: true
 
 # Role/position
 role: 研究员，博士生导师
