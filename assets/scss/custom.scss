@@ -1,22 +1,22 @@
-/* 1. 初始化一个名为 pubCounter 的计数器 */
+/* 1. 初始化计数器 */
 body {
     counter-reset: pubCounter;
 }
 
-/* 2. 告诉系统，每次遇到文章列表项，计数器就 +1 */
-/* Hugo Blox 默认的文章列表项类名通常是 stream-item */
-.media {
+/* 2. 在左侧留出空间，并让它成为定位的基准 */
+.pub-list-item {
     counter-increment: pubCounter;
-    display: flex; /* 使用 flex 布局让编号和文字对齐 */
-    align-items: flex-start;
+    position: relative; /* 关键：设为相对定位 */
+    padding-left: 45px !important; /* 关键：在左边硬挤出 45px 的空白，如果觉得窄可以改成 50px */
 }
 
-/* 3. 在每篇文章前面插入编号 */
-..media::before {
-    content: "[" counter(pubCounter) "]"; /* 显示格式，比如 [1] */
-    margin-right: 15px; /* 编号和文字之间的间距 */
-    font-weight: bold; /* 编号字体加粗 */
-    color: #1565c0; /* 编号的颜色，你可以换成你网站的主题色 */
-    white-space: nowrap; /* 保证编号不换行 */
-    margin-top: 2px; /* 微调高度，让它和标题对齐 */
+/* 3. 把编号固定在刚才留出的空白处 */
+.pub-list-item::before {
+    content: "[" counter(pubCounter) "]";
+    position: absolute;
+    left: 0;           /* 固定在最左边 */
+    top: 0;            /* 高度与第一行对齐，如果觉得偏上或偏下，可以改一下比如 top: 2px; */
+    font-weight: bold;
+    color: #1565c0;    /* 编号颜色 */
+    white-space: nowrap;
 }
