@@ -1,0 +1,28 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  
+  <!-- 让 Hugo 把此页面下的所有文章按照年份提取并分组 -->
+  <!-- 注意：这里的 "2006" 是 Hugo 系统的底层语法，代表“提取年份”，绝对不要改成 2024 或 2025 哦！ -->
+  {{ range .Pages.GroupByDate "2006" }}
+    
+    <!-- 这里是年份标题的样式 -->
+    <h2 style="margin-top: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #1565c0; padding-bottom: 5px; color: #1565c0;">
+      {{ .Key }} 
+    </h2>
+
+    <!-- 输出该年份下的所有论文 -->
+    <div>
+      {{ range .Pages }}
+        <!-- 渲染单篇论文条目 -->
+        {{ partial "functions/render_view" (dict "page" $ "item" . "view" $.Params.view) }}
+      {{ end }}
+    </div>
+    
+  {{ end }}
+
+</div>
+
+{{- end -}}
