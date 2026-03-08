@@ -21,7 +21,7 @@ author_notes:
 -
 -
 -
--- "Corresponding author"
+- "Corresponding author"
 date: "2026-02-01T00:00:00Z"
 publication: "Earth and Space Science"
 publication_short: ""
