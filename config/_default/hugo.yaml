@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 月球与行星雷达团组 # Website name
+title: 行星浅表层与宜居性团队 # Website name
 baseURL: 'SZULPRG.github.io' # Website URL
 
 ############################
