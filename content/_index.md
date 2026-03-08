@@ -8,9 +8,9 @@ sections:
   - block: hero
     content:
       title: |
-        **天都—深圳大学深空探测联合实验室**
+        <span style="font-size: 2.5rem;">**天都—深圳大学深空探测联合实验室**</span>
         
-        **行星浅表层与宜居性团队**
+        <span style="font-size: 2rem;">**行星浅表层与宜居性团队**</span>
       image:
         filename: welcome3.jpg
       text: |
