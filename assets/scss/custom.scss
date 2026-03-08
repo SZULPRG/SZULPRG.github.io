@@ -5,14 +5,14 @@ body {
 
 /* 2. 告诉系统，每次遇到文章列表项，计数器就 +1 */
 /* Hugo Blox 默认的文章列表项类名通常是 stream-item */
-.stream-item {
+.pub-list-item {
     counter-increment: pubCounter;
     display: flex; /* 使用 flex 布局让编号和文字对齐 */
     align-items: flex-start;
 }
 
 /* 3. 在每篇文章前面插入编号 */
-.stream-item::before {
+.pub-list-item::before {
     content: "[" counter(pubCounter) "]"; /* 显示格式，比如 [1] */
     margin-right: 15px; /* 编号和文字之间的间距 */
     font-weight: bold; /* 编号字体加粗 */
