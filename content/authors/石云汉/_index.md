@@ -20,7 +20,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: ''
+    link: '18026988303@163.com'
 
 user_groups:
   - 硕士生
