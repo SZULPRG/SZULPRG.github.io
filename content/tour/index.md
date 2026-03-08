@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 欢迎来到月球与行星雷达团组
+      - title: 欢迎来到行星浅表层与宜居性团队
         content: 👋 我们致力于：服务国家深空探测战略，实现具有国际影响力的月球与行星雷达理论研究和技术研发的开放平台
         align: center
         background:
