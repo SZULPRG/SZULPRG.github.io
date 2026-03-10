@@ -286,5 +286,9 @@ user_groups:
 
 ### 业内重要参考文献（部分）
 - 📄 [She et al., 2024.pdf](She_et_al_2024.pdf)
+- 📄 [李春来等 2020.pdf](李春来等 2020.pdf)
+- 📄 [Eide et al., 2022.pdf](Eide et al., 2022.pdf)
+- 📄 [Huang et al., 2022.pdf](Huang et al., 2022.pdf)
+- 📄 [Zhao et al., 2025.pdf](Zhao et al., 2025.pdf)
 
 
