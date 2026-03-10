@@ -285,5 +285,5 @@ user_groups:
 7. 邢树果; 苏彦; 封剑青; 戴舜; **丁春雨**; 肖媛; 李春来; 一种基于相关系数分析法计算测月雷达探测深度的方法, 2015, 中国, CN201510458312.1.
 
 ### 附件下载
-- 📄 [She et al., 2024.pdf](/assets/files/She_et_al_2024.pdf)
+- 📄 [She et al., 2024.pdf](/files/She_et_al_2024.pdf)
 
