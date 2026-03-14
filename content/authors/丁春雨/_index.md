@@ -291,6 +291,7 @@ user_groups:
 - 📄 [Huang et al., 2022.pdf](Huang2022.pdf)
 - 📄 [Zhao et al., 2025.pdf](Zhao2025.pdf)
 - 📄 [Losarcos et al., 2025.pdf](Losarcos2025.pdf)
+- 📄 [Mo et al., 2025.pdf](Mo2025.pdf)
 
 
 
